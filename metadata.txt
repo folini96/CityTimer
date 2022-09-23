@@ -12,8 +12,8 @@ email=carloandrea.biraghi@polimi.it
 
 about=This plugin computes the time and distance (network and linear) from a set of source geometries to multiple layer points. It returns statistics and the convex hull for the input layer geometries, for the target layer, for each of its geometries. It allows to define the “working time” of input geometries, with a natural application for the assessment of the 15min city. The plugin QNEAT3 is required for the installation. 
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/folini96/CityTimer/issues
+repository=https://github.com/folini96/CityTimer
 # End of mandatory metadata
 
 # Recommended items:
