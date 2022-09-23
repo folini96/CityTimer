@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=CityTimer
+qgisMinimumVersion=3.0
+description=Evaluate the distance from the 15min city of a context
+version=0.1
+author=Carlo Andrea Biraghi, Andrea Folini
+email=carloandrea.biraghi@polimi.it
+
+about=This plugin computes the time and distance (network and linear) from a set of source geometries to multiple layer points. It returns statistics and the convex hull for the input layer geometries, for the target layer, for each of its geometries. It allows to define the “working time” of input geometries, with a natural application for the assessment of the 15min city. The plugin QNEAT3 is required for the installation. 
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=15min city, network distance, layer to layer, vector, convex hull 
+
+homepage=http://homepage
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=QNEAT3
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
