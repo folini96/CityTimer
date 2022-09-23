@@ -25,7 +25,7 @@ hasProcessingProvider=yes
 # Tags are comma separated with spaces allowed
 tags=15min city, network distance, layer to layer, vector, convex hull 
 
-homepage=http://homepage
+homepage=https://github.com/folini96/CityTimer
 category=Analysis
 icon=icon.png
 # experimental flag
